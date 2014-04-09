@@ -1,0 +1,40 @@
+@board-size: 400px;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f4f4f4;
+	min-width: @board-size + 440;
+	min-height: @board-size;
+	padding: 20px;
+	position: relative;
+}
+
+canvas {
+	background: #fff;
+	width: @board-size;
+	height: @board-size;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: (ceil(@board-size / 2) *-1) (ceil(@board-size / 2) *-1);
+}
+
+.userActiveIdentifierBox {
+	width: 200px;
+
+	p {
+		font-size: 16px;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		text-align: center;
+		padding: 10px 0; 
+	}
+}
+#userActiveIdentifier {
+	width: 200px;
+	height: 200px;
+}
