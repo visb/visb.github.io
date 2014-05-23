@@ -1,0 +1,8 @@
+{
+    "name" : "default-project",
+    "dependencies" : {
+        "jquery" : "*",
+        "bootstrap" : "*",
+        "requirejs" : "*"
+    }
+}

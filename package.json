@@ -1,0 +1,9 @@
+{
+  "name": "default-project",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-less": "*",
+    "gulp-autoprefixer": "*"
+  }
+}
