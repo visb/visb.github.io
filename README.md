@@ -1,4 +1,0 @@
-dama
-====
-
-Jogo de dama
